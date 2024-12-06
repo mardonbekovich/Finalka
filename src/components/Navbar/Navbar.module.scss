@@ -1,0 +1,32 @@
+#check {
+  margin-right: 6px;
+  pointer-events: none;
+}
+label {
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  accent-color: #1407f9;
+}
+.type {
+  max-width: 360px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 4px;
+}
+p {
+  color: #888;
+
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.capacity {
+  max-width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: baseline;
+}
